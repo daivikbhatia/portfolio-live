@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Redirect all 404s to index.html and preserve the path for React Router
+      var redirectTo = '/portfolio-live' + location.pathname + location.search + location.hash;
+      window.location.replace(redirectTo);
+    </script>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected, <a id="redirect-link" href="#">click here</a>.</p>
+    <script>
+      document.getElementById('redirect-link').href = '/portfolio-live' + location.pathname + location.search + location.hash;
+    </script>
+  </body>
+</html>
