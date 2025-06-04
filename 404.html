@@ -4,16 +4,27 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script type="text/javascript">
-      // Redirect all 404s to index.html and preserve the path for React Router
-      var redirectTo = '/portfolio-live' + location.pathname + location.search + location.hash;
-      window.location.replace(redirectTo);
+      // Only prepend /portfolio-live if not already present
+      var prefix = '/portfolio-live';
+      var path = location.pathname;
+      if (!path.startsWith(prefix)) {
+        var redirectTo = prefix + path + location.search + location.hash;
+        window.location.replace(redirectTo);
+      }
+      // If already on /portfolio-live, do nothing (let the 404 show)
     </script>
   </head>
   <body>
     <h1>Redirecting...</h1>
     <p>If you are not redirected, <a id="redirect-link" href="#">click here</a>.</p>
     <script>
-      document.getElementById('redirect-link').href = '/portfolio-live' + location.pathname + location.search + location.hash;
+      var prefix = '/portfolio-live';
+      var path = location.pathname;
+      if (!path.startsWith(prefix)) {
+        document.getElementById('redirect-link').href = prefix + path + location.search + location.hash;
+      } else {
+        document.getElementById('redirect-link').href = '/portfolio-live/';
+      }
     </script>
   </body>
 </html>
