@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio-live/static/css/main.4ca4ad8f.css",
-    "main.js": "/portfolio-live/static/js/main.9998a41a.js",
+    "main.js": "/portfolio-live/static/js/main.f4b263a9.js",
     "static/media/profile_pic.jpeg": "/portfolio-live/static/media/profile_pic.254b547b83bead088adb.jpeg",
+    "static/media/bb8.jpeg": "/portfolio-live/static/media/bb8.f776218e84eb3b9004dc.jpeg",
     "static/media/kgdb-raspberrypi5.md": "/portfolio-live/static/media/kgdb-raspberrypi5.c3ad91547b7718f0ea44.md",
     "static/media/a-triangle-is-all-it-takes.md": "/portfolio-live/static/media/a-triangle-is-all-it-takes.612ad12ef7a87b63adf0.md",
     "index.html": "/portfolio-live/index.html",
     "main.4ca4ad8f.css.map": "/portfolio-live/static/css/main.4ca4ad8f.css.map",
-    "main.9998a41a.js.map": "/portfolio-live/static/js/main.9998a41a.js.map"
+    "main.f4b263a9.js.map": "/portfolio-live/static/js/main.f4b263a9.js.map"
   },
   "entrypoints": [
     "static/css/main.4ca4ad8f.css",
-    "static/js/main.9998a41a.js"
+    "static/js/main.f4b263a9.js"
   ]
 }
