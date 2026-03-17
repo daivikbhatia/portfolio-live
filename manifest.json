@@ -3,18 +3,18 @@
   "name": "DTGS Portfolio Website",
   "icons": [
     {
-      "src": "bb8-v2.jpeg",
+      "src": "bb8-round.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/jpeg"
+      "type": "image/png"
     },
     {
-      "src": "bb8-v2.jpeg",
-      "type": "image/jpeg",
+      "src": "bb8-round.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "bb8-v2.jpeg",
-      "type": "image/jpeg",
+      "src": "bb8-round.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
